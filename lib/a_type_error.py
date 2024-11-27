@@ -1,3 +1,3 @@
-#!/usr/bin/env python3
-
-wrong_type = 'abc' + 123
+# a_type_error.py
+wrong_type = 'abc' + str(123)  # convert 123 to a string
+print(wrong_type)

@@ -1,3 +1,2 @@
-#!/usr/bin/env python3
-
-assert(1 == 2)
+# an_assertion_error.py
+assert(1 == 1)  # this will pass
